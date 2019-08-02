@@ -1,4 +1,4 @@
-FROM nginx:1.17.2
+FROM nginx:latest
 
 RUN apt-get update && \
     apt-get dist-upgrade -y && \
